@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="com.example.asus.uas.Credit">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="350px"
+            android:layout_height="250px"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/faisal" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:text="NAMA     : FAISAL ALFARISI"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text1_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:text="NPM        : 1406049"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text1_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1_2"
+            android:text="EMAIL     : 1406049@sttgarut.ac.id"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text1_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1_3"
+            android:text="ALAMAT : Rengganis"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="350px"
+            android:layout_height="250px"
+            android:layout_below="@+id/text1_4"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/naufal" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img2"
+            android:text="NAMA     : MUHAMMAD LUTHFI NAUFAL"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:text="NPM        : 1406083"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2_2"
+            android:text="EMAIL     : 1406083@sttgarut.ac.id"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text2_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2_3"
+            android:text="ALAMAT : Kp. Cikole"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="350px"
+            android:layout_height="250px"
+            android:layout_below="@+id/text2_4"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/yulpan" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img3"
+            android:text="NAMA     : YULPAN PAISAL"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3"
+            android:text="NPM        : 1406130"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text3_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3_2"
+            android:text="EMAIL     : 1406130@sttgarut.ac.id"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/text3_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text3_3"
+            android:text="ALAMAT : Guntur Wangi"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+</ScrollView>
